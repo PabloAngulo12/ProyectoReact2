@@ -10,7 +10,7 @@ function Menu() {
         <li><Link to="/seccion1" className="text-white">Formulario</Link></li>
         <li><Link to="/seccion2" className="text-white">Halo 3 odst</Link></li>
         <li><Link to="/seccion3" className="text-white">Halo reach</Link></li>
-        <li><Link to="/seccion4" className="text-white">Nuevo Contenido</Link></li> {/* Nueva sección */}
+        <li><Link to="/seccion4" className="text-white">Halo Wars 1 y 2</Link></li> 
       </ul>
     </nav>
   );
