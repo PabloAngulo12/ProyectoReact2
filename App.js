@@ -5,7 +5,8 @@ import Footer from './components/Footer';
 import Seccion1 from './components/Seccion1';
 import Seccion2 from './components/Seccion2';
 import Seccion3 from './components/Seccion3';
-import Seccion4 from './components/Seccion4'; // Importa la nueva sección
+import Seccion4 from './components/Seccion4';
+import Seccion5 from './components/Seccion5';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
           <Route path="/seccion1" element={<Seccion1 />} />
           <Route path="/seccion2" element={<Seccion2 />} />
           <Route path="/seccion3" element={<Seccion3 />} />
-          <Route path="/seccion4" element={<Seccion4 />} /> {/* Añade la ruta de la nueva sección */}
+          <Route path="/seccion4" element={<Seccion4 />} />
+          <Route path="/seccion5" element={<Seccion5 />} />
         </Routes>
         <Footer />
       </Router>
@@ -28,3 +30,4 @@ function App() {
 }
 
 export default App;
+
