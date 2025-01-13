@@ -4,11 +4,6 @@ import imagen5 from '../assets/halo-wars2.jpg';
 
 function Seccion4() {
   console.log('Seccion4 is rendering');
-  const [textareaValue, setTextareaValue] = useState(''); // Estado para el área de texto
-
-  const handleTextareaChange = (e) => {
-    setTextareaValue(e.target.value);
-  };
 
   return (
     <section className="App-seccion p-4 flex flex-col items-center">
@@ -24,10 +19,6 @@ function Seccion4() {
             El juego fue presentado con un breve teaser tráiler cinemático en la Gamescom 2015 y un nuevo tráiler cinemático en el E3 2016.</p>
         <img src={imagen4} alt="Imagen en Sección 4" className="mt-4 rounded shadow-lg" />
         <img src={imagen5} alt="Imagen en Sección 4" className="mt-4 rounded shadow-lg" />
-        <p className="text-purple-800 mb-4"></p>
-        <div className="mt-4">
-          <textarea value={textareaValue} onChange={handleTextareaChange} className="w-full p-2 rounded border"></textarea>
-        </div>
       </div>
     </section>
   );
