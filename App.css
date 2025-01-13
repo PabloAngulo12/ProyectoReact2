@@ -1,0 +1,34 @@
+
+.App {
+    text-align: center;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+  }
+  
+  .App-menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .App-menu li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .App-seccion {
+    padding: 20px;
+  }
+  
+  .App-footer {
+    background-color: #282c34;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
