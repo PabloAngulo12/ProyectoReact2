@@ -3,7 +3,6 @@ import React from 'react';
 function Seccion5() {
   console.log('Seccion5 is rendering');
 
-  // Lista de juegos
   const juegos = [
     { nombre: 'Halo combat evolved', año: 2001 },
     { nombre: 'Halo 2', año: 2004 },
