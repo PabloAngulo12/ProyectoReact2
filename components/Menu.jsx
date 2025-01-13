@@ -11,6 +11,7 @@ function Menu() {
         <li><Link to="/seccion2" className="text-white">Halo 3 odst</Link></li>
         <li><Link to="/seccion3" className="text-white">Halo reach</Link></li>
         <li><Link to="/seccion4" className="text-white">Halo Wars 1 y 2</Link></li> 
+        <li><Link to="/seccion5" className="text-white">Orden de salida de Halo</Link></li>
       </ul>
     </nav>
   );
